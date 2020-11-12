@@ -1,0 +1,86 @@
+.modal-Dialog div.alert.alert-danger {
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+
+.MS_background_footer .col-sm-5.col-xs-12 ul.social {
+    float: right;
+    text-align: right;
+}
+
+div[id$="PaymentPartFormContainer"] div[id$="CartGrid_topLinkBar"]>a {
+    border-color: #ccc;
+}
+
+.MS_background_header {
+    padding: 0px;
+}
+
+.MS_background_header>.container {
+    padding: 20px 10px;
+}
+
+.menu-mobile-button:focus {
+    outline: none;
+}
+
+.MS_background_header #mobile-nav #mobile-menu-buttons.signedin {
+    display: block;
+}
+
+.MS_background_header #mobile-nav #mobile-menu-buttons.signedin>div {
+    padding-left: 0;
+    padding-right: 0;
+    display: block;
+}
+
+.MS_background_header #mobile-nav #mobile-menu-buttons.signedin>a {
+    width: 100%;
+    text-align: center;
+    margin-top: 15px;
+}
+
+@media screen and (min-width: 768px) {
+
+    #popuploginformcontainer,
+    #popuploginregister {
+        display: table-cell !important;
+        float: none !important;
+    }
+
+    .MS_background_footer .col-sm-5.col-xs-12 {
+        margin-top: 30px;
+    }
+
+    .MS_background_header #nav {
+        white-space: normal;
+    }
+
+    header [id*="pnlFooterText"]>div {
+        width: 60%;
+    }
+
+    header [id*="pnlFooterText"]>div:first-child {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 995px) {
+    .newLogin {
+        top: 35px !important;
+    }
+
+    .site-footer ul.social {
+        width: 100%;
+        text-align: center !important;
+    }
+
+
+    .MS_background_header #mobile-nav #mobile-menu-section {
+        padding: 10px;
+    }
+
+    .MS_background_header #mobile-nav #mobile-menu-section>.col-sm-12 {
+        padding: 0px;
+    }
+}
